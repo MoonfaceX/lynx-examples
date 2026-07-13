@@ -1,0 +1,29 @@
+/* DanmakuV2 弹幕引擎样式 - 极简版 */
+/* 不要添加任何可能干扰 list 水平滚动的样式 */
+
+.DanmakuV2 {
+  width: 100%;
+  /* 入场动画会让行向左延伸 80px，超出左边界的内容需要被外层裁掉 */
+  overflow: hidden;
+}
+
+/*
+ * 入场位移动画：整行 translateX 从 +80px 过渡到 0。
+ * 为了让动画过程中左侧始终有内容（而不是露出空白），每一行的 wrapper 会
+ *   - 向左延伸 80px（marginLeft: -80px）
+ *   - 对应 list 宽度加宽 80px
+ * 于是：
+ *   - 动画起点 translateX(80px)：list 左边缘恰好贴屏幕左侧，左侧有内容兜底
+ *   - 动画终点 translateX(0)：list 左边缘位于 -80px，被外层 overflow: hidden 裁掉，
+ *     屏幕内可视区域仍为 screenWidth，视觉上与改动前一致。
+ */
+@keyframes danmakuRowEnter {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,137 @@
+/* Copyright 2024 The Lynx Authors. All rights reserved.
+ * Licensed under the Apache License Version 2.0 that can be found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f1115;
+  padding: 24px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 16px 20px;
+}
+
+.header__title {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  color: #8a8f99;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Danmaku stage: dark backdrop like a video overlay. */
+.stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(180deg, #1a1d24 0%, #12141a 100%);
+  padding: 12px 0;
+  overflow: hidden;
+}
+
+/* A single scrolling bullet-comment pill. */
+.danmaku-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 22px;
+}
+
+.danmaku-card__emoji {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.danmaku-card__text {
+  color: #1a1d24;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Control panel. */
+.panel {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 16px 0 16px;
+  padding: 8px 16px;
+  background-color: #1a1d24;
+  border-radius: 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+  border-bottom: 1px solid #24272f;
+}
+
+.label {
+  color: #c9cdd4;
+  font-size: 15px;
+}
+
+.value {
+  color: #8a8f99;
+  font-size: 14px;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #3a3f4b;
+}
+
+.toggle--on {
+  background-color: #06d6a0;
+}
+
+.toggle__text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 76px;
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 17px;
+  background-color: #3a3f4b;
+}
+
+.btn--primary {
+  background-color: #5b8def;
+}
+
+.btn__text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}

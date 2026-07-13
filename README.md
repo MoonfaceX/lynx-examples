@@ -56,6 +56,7 @@ This repository is intended to showcase examples of Lynx.
   - [`action-sheet`]: An example shows how to make an ActionSheet
   - [`desktop`]: Desktop-oriented cursor demos with `cursor` and `mouse-cursor` entries
   - [`swiper`]: An example shows how to use main thread script for interaction
+  - [`danmaku-scroll`]: An example shows how to build an infinite horizontal danmaku (bullet-comment) marquee with main thread scripts
 - A11y
   - [`accessibility`]: An example shows how to make App accessibility
 - Performance
@@ -74,6 +75,7 @@ This repository is intended to showcase examples of Lynx.
 [`animation`]: ./examples/animation
 [`blur-view`]: ./examples/blur-view
 [`css`]: ./examples/css
+[`danmaku-scroll`]: ./examples/danmaku-scroll
 [`desktop`]: ./examples/desktop
 [`design-guide`]: ./examples/design-guide
 [`element-manipulation`]: ./examples/element-manipulation
