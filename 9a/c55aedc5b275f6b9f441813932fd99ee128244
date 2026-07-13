@@ -1,0 +1,33 @@
+.changeset/calm-streams-loop.md
+  s_6c5ab795b5f565::t_9158f33a7875a5 1-5
+examples/list/lynx.config.mjs
+  s_6c5ab795b5f565::t_a08369fbd92e07 25
+examples/list/src/danmaku/App.scss
+  s_6c5ab795b5f565::t_994dab3d0e6bf6 1-274
+examples/list/src/danmaku/App.tsx
+  s_6c5ab795b5f565::t_c79d8f0e76fa6f 1-103
+examples/list/src/danmaku/components/Danmaku.tsx
+  s_6c5ab795b5f565::t_ef325e0ecf2a68 1-752
+examples/list/src/danmaku/index.tsx
+  s_6c5ab795b5f565::t_1b339c084f4abd 1-13
+examples/list/src/danmaku/mockData.ts
+  s_6c5ab795b5f565::t_729a59f3acae00 1-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9ac55aedc5b275f6b9f441813932fd99ee128244",
+  "prompts": {},
+  "sessions": {
+    "s_6c5ab795b5f565": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f5a3d-4905-74f1-b082-08f9fa522d74",
+        "model": "unknown"
+      },
+      "human_author": "mooface <xiamengfei.moonface@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
